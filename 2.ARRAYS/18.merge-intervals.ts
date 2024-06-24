@@ -13,7 +13,7 @@ function merge(intervals: number[][]): number[][] {
     let second = intervals[i];
 
     // no matched intervals
-    if (first[1] < second[0] && first[1] < second[1]) {
+    if (first[1] < second[0]) {
       output.push(intervals[i]);
     } else {
       let value = [
