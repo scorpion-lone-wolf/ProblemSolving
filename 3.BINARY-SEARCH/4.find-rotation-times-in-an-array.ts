@@ -1,6 +1,6 @@
 // * https://www.geeksforgeeks.org/problems/rotation4723/1
 
-class Solution {
+class Rotation {
   findKRotation(arr: number[], n: number) {
     // code here
 

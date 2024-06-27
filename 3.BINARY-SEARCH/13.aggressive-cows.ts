@@ -1,5 +1,5 @@
 //  * https://www.geeksforgeeks.org/problems/aggressive-cows/0
-class Solution {
+class Cows {
   //Function to solve the problem.
   solve(n: number, k: number, stalls: number[]) {
     //your code here
